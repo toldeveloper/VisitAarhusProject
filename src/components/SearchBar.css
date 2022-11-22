@@ -1,0 +1,31 @@
+.searchbar {
+    background-color: #062b52;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border: none;
+}
+.search {
+    width: 45px;
+    height: 45px;
+    display: none;
+}
+select {
+    color: white;
+    width: 60vw;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
+  .flexbox {
+    display: flex;
+  }

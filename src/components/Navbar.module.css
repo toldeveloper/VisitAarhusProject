@@ -1,0 +1,31 @@
+.nav1 {
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    z-index: 9000;
+    background-color: aquamarine;
+    position: fixed;  
+    bottom: 0;
+}
+
+.nav1 a{
+    display: inline-block;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+/* Icon sizes */
+.nav1 a svg{
+    font-size: 40px;
+    color: yellow;
+}
+
+.active{
+    background-color: red;
+    color: magenta;
+    margin-top: 4rem;
+}
