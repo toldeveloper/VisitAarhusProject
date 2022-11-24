@@ -1,4 +1,6 @@
 {
+  "build": "react-scripts build && cp build/index.html build/404.html"
+  
   "name": "citybreakplan",
   "version": "0.1.0",
   "private": true,
